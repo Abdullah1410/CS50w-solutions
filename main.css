@@ -35,10 +35,92 @@ img {
 }
 
 #sbox {
+  border: 1px solid #ccc;
   border-radius: 20px;
-  width: 500px;
-  height: 20px;
-  padding: 7px 12px;
+  width: 550px;
+  height: 25px;
+  padding: 7px 35px;
   outline: 0;
+  border-color: #c7bfbf;
+}
+
+#sbox:hover {
+  -webkit-box-shadow: 0 0 3px #ccc;
+          box-shadow: 0 0 3px #ccc;
+}
+
+/*#x {
+    position: relative;
+    top: 40px;
+    right: 265px;
+}
+
+#y {
+    position: relative;
+    bottom: 40px;
+    left: 265px;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 30px;
+}*/
+.icon {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: auto;
+}
+
+#x {
+  top: 10px;
+  left: 40px;
+}
+
+#y {
+  bottom: -8px;
+  right: 40px;
+}
+
+#btn-container {
+  margin-top: 10px;
+}
+
+.btn {
+  background: #f8f9fa;
+  border: 0 solid   #ccc;
+  padding: 10px 20px;
+  border-radius: 4px;
+  outline: 0;
+}
+
+#gs {
+  margin-right: 5px;
+}
+
+#ifl {
+  margin-left: 5px;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 0 3px #ccc;
+          box-shadow: 0 0 3px #ccc;
+  cursor: pointer;
+}
+
+.langs {
+  margin-top: 25px;
+}
+
+.langs a {
+  color: blue;
+}
+
+.langs a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
