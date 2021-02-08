@@ -22,6 +22,7 @@ body {
 
 a{
     text-decoration: none;
+    font-size: 13px;
     color: #000000de;
 }
 
@@ -43,6 +44,7 @@ img {
     padding: 7px 35px;
     outline: 0;
     border-color: rgb(199, 191, 191); 
+    font-size: 16px;
 }
 
 $this : 0 0 3px #ccc;
@@ -119,8 +121,10 @@ $this : 0 0 3px #ccc;
 
 .langs {
     margin-top: 25px;
+    font-size: 13px;
     a {
         color: blue;
+        
     }
     a:hover {
         cursor: pointer;
@@ -129,6 +133,45 @@ $this : 0 0 3px #ccc;
 }
 
 
+$btc :  1px solid rgb(224, 201, 201);
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #f2f2f2;
+    margin: 0;
+    color: grey;
+    outline: 0;
+    a {
+        color: grey;
+        cursor: pointer;
+    }
+    #top {
+        text-align: left;
+        padding: 10px 20px;
+        border-top: $btc;
+        font-size: 16px;
+    }
+    #bottom {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-top: $btc;
+        width: 100%;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        word-spacing: 10px;
+        #lo {
+            margin-left: 39px;
+        }
+    }
+}
 
 
 
