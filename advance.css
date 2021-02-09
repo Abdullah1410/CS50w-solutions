@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 5em;
+  background-color: rgba(200, 200, 200, 0.8);
+  text-align: right;
+  margin-right: 05px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0em;
+}
+
+a {
+  font-size: 14px;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#logo {
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 78em;
+}
+
+#heading {
+  text-align: left;
+  color: #d93025;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 2.5em;
+  font-family: Arial, sans-serif;
+  margin-bottom: 0.5px solid #f2f2f2;
+}
+/*# sourceMappingURL=advance.css.map */

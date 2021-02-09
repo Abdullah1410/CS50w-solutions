@@ -14,8 +14,8 @@
     <title>Google Images</title>
     <style>
         #aa{
-            bottom: -1em;
-            left: 5em;
+            bottom: -.8em;
+            left: 4.5em;
 
         }
         #bb {
@@ -30,6 +30,9 @@
             bottom: -.8em;
             right: 11.5em;
         }
+        #gs:active {
+            border: 1px solid rgb(46, 125, 214);
+        }
         
     </style>
 </head>
@@ -42,7 +45,7 @@
         <img src="gi.png" alt="Google Images Symbol" style="height: 10em; margin: 0 3em;">
 
         <div id="form">
-            <form action="https://images.google.com/images">
+            <form action="https://images.google.com/images" style="padding: 5px 30px 5px 30px;"> 
                 <div>
                     <img src="search.png" alt="Search Icon" id="aa" class="icon">
                     <img src="sblue.png" alt="Search Icon" id="xx" class="icon">
@@ -52,6 +55,9 @@
                     <img src="voice.png" alt="Voice Icon" id="bb" class="icon">
                     <img src="camera.png" alt="Voice Icon" id="yy" class="icon">
 
+                </div>
+                <div id="btn-container"> 
+                    <input type="submit"  value="Search Image" class="btn" id="gs">
                 </div>
             </form>
         </div>
